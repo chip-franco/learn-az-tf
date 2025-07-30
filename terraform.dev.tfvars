@@ -1,0 +1,6 @@
+rg_name     = "nhk-dev-rg"
+location    = "Korea Central"
+vnet_name   = "nhk-dev-vnet"
+subnet_name = "nhk-dev-subnet"
+vm_name     = "nhk-dev-vm"
+# admin_ssh_public_key = "~/.ssh/id_rsa.pub"
