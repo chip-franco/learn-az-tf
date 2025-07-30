@@ -14,6 +14,8 @@ module "network" {
     subnet_name         = var.subnet_name
     rg_name             = module.rg.rg_name
     location            = var.location
+
+    depends_on = [module.rg]
 }
 
 module "vm" {
@@ -24,4 +26,6 @@ module "vm" {
    # admin_username      = var.admin_username
     rg_name             = module.rg.rg_name
     location            = var.location
+
+    depends_on = [module.network]
 }
