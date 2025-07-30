@@ -24,9 +24,3 @@ variable "vm_name"   {
     type = string
     default  = "learn-azure-terraform-vm"
 }
-
-
-variable "subnet_id" { 
-    type = string
-    description = "서브넷 ID"
-}
