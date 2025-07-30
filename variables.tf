@@ -7,7 +7,7 @@ variable "rg_name"   {
 variable "location"  {
     description = "리소스 위치"  
     type = string
-    default = "East Asia"
+    default = "koreacentral"
 }
 variable "vnet_name" {
     description = "가상 네트워크 이름" 

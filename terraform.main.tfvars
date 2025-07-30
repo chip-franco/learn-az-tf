@@ -1,5 +1,5 @@
 rg_name     = "nhk-dev-rg"
-location    = "East Asia"
+location    = "koreacentral"
 vnet_name   = "nhk-dev-vnet"
 subnet_name = "nhk-dev-subnet"
 vm_name     = "nhk-dev-vm"
